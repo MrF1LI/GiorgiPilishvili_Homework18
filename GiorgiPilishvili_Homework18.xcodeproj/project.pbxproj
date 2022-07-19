@@ -13,6 +13,8 @@
 		4E0252FF2885F56E00095384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0252FD2885F56E00095384 /* Main.storyboard */; };
 		4E0253012885F56E00095384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0253002885F56E00095384 /* Assets.xcassets */; };
 		4E0253042885F56E00095384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0253022885F56E00095384 /* LaunchScreen.storyboard */; };
+		4E3A7DD228868E58003743C0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A7DD128868E58003743C0 /* SecondViewController.swift */; };
+		4E3A7DD42886B988003743C0 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A7DD32886B988003743C0 /* TriangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4E0253002885F56E00095384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0253032885F56E00095384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E0253052885F56E00095384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3A7DD128868E58003743C0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4E3A7DD32886B988003743C0 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4E0253002885F56E00095384 /* Assets.xcassets */,
 				4E0253022885F56E00095384 /* LaunchScreen.storyboard */,
 				4E0253052885F56E00095384 /* Info.plist */,
+				4E3A7DD128868E58003743C0 /* SecondViewController.swift */,
+				4E3A7DD32886B988003743C0 /* TriangleView.swift */,
 			);
 			path = GiorgiPilishvili_Homework18;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3A7DD228868E58003743C0 /* SecondViewController.swift in Sources */,
 				4E0252FC2885F56E00095384 /* ViewController.swift in Sources */,
+				4E3A7DD42886B988003743C0 /* TriangleView.swift in Sources */,
 				4E0252F82885F56E00095384 /* AppDelegate.swift in Sources */,
 				4E0252FA2885F56E00095384 /* SceneDelegate.swift in Sources */,
 			);
